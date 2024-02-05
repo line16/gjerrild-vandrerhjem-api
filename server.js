@@ -35,6 +35,7 @@ app.get( '/', async ( req, res ) => {
 app.use( '/aboutus', require( './routes/aboutus.routes' ) )
 app.use( '/galleryitems', require( './routes/galleryitems.routes' ) )
 app.use( '/activities', require( './routes/aktiviteter.routes' )  )
+app.use( '/news', require( './routes/news.routes' )  )
 
 
 // --- NO MATCH
