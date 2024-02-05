@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-const aboutusSchema = new mongoose.Schema({
+const eventsSchema = new mongoose.Schema({
     title: {
         type: String,
         required: true
@@ -17,4 +17,4 @@ const aboutusSchema = new mongoose.Schema({
 })
 
 
-module.exports = mongoose.model('Aboutus', aboutusSchema, 'aboutus')
+module.exports = mongoose.model('Events', eventsSchema)
